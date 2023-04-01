@@ -1,0 +1,22 @@
+{
+  "name": "js-component",
+  "version": "1.0.0",
+  "description": "Demo connecting to Substrate Node",
+  "main": "index.js",
+  "author": "CoConu",
+  "license": "Unlicense",
+  "private": false,
+  "scripts": {
+    "start": "node --use_strict index.js",
+    "start:dev": "nodemon --use_strict index.js",
+    "start:debug": "nodemon --use_strict index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^7.8.1",
+    "@polkadot/types": "^7.8.1",
+    "web3": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
