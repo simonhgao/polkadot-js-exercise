@@ -12,4 +12,4 @@ ts-node main.ts
 ![](assets/ui.png)
 
 ## subscribe event
-1[](assets/subscribe_cli.png)
+![](assets/subscribe_cli.png)
